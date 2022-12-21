@@ -16,6 +16,10 @@ public class Product {
     public List<Integer> prices;
     public List<String> usersTracking;
 
+    public Product() {
+
+    }
+
     public Product (String name, String url, Integer price, String userTracking) {
         super();
         this.name = name;
